@@ -1,0 +1,75 @@
+p, div, a, span, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: LabGrotesque, sans-serif;
+    color: #F7F7F7;
+}
+
+.counter {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    width: fit-content;
+    min-width: 960px;
+    width: -moz-fit-content;
+    padding: 20px 20px 40px 150px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.counter__text {
+    margin-right: 83px;
+    padding-top: 12px;
+    max-width: 381px;
+}
+
+.counter__text p:first-child {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+}
+
+.counter__text p:last-child {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.counter__num{
+    display: flex;
+}
+
+.counter__num span {
+    color: #000000;;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 24px;
+    font-size: 65px;
+    line-height: 78px;
+    box-shadow: 12px 14px 30px #A6001D;
+    -webkit-box-shadow: 12px 14px 30px #A6001D;
+    -moz-box-shadow: 12px 14px 30px #A6001D;
+}
+.counter__num span:not(:last-child) {
+    margin-right: 12px;
+}
+
+
+@font-face {
+    font-family: "LabGrotesque";
+    src: url("../fonts/LabGrotesque-Bold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LabGrotesque";
+    src: url("../fonts/LabGrotesque-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
