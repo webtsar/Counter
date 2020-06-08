@@ -1,29 +1,26 @@
-p, div, a, span, body{
-    margin: 0;
-    padding: 0;
+.counter *{
     box-sizing: border-box;
     outline: none;
 }
 
-body {
+.counter {
     font-family: LabGrotesque, sans-serif;
     color: #F7F7F7;
-}
-
-.counter {
-    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
-    width: fit-content;
-    min-width: 960px;
-    width: -moz-fit-content;
-    padding: 20px 20px 40px 150px;
+    background: linear-gradient(69.38deg, #B90021 -6.97%, rgba(185, 0, 33, 0) 38.87%), #EA0029;;
+    padding: 20px 20px 20px 150px;
     border-radius: 10px;
     display: flex;
 }
 
 .counter__text {
     margin-right: 75px;
-    padding-top: 14px;
+    padding-top: 10px;
     max-width: 390px;
+}
+
+.counter__text p{
+    margin: 0;
+    padding: 0;
 }
 
 .counter__text p:first-child {
